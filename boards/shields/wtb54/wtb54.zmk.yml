@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: wtb54
+name: wtb54
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - wtb54_left
+  - wtb54_right

@@ -1,0 +1,14 @@
+
+if SHIELD_WTB54_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "wtb54"
+
+endif
+
+if SHIELD_WTB54_LEFT || SHIELD_WTB54_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
