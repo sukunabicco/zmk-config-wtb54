@@ -13,6 +13,8 @@
 &kp LCTRL         &kp Z         &kp X         &kp C         &kp V         &kp B         &kp N         &kp M          &kp COMMA  &kp PERIOD    &kp AT         &kp RCTRL
 &lt 2 LANGUAGE_2                                            &kp LEFT_WIN  &kp SPACE     &kp ENTER     &kp BACKSPACE                                          &lt 1 LANG1
             >;
+
+            label = "Defalut";
         };
 
         layer_1 {
@@ -23,6 +25,8 @@
 &trans  &none            &kp GRAVE          &kp MINUS  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH      &kp BACKSLASH   &kp AT_SIGN   &trans
 &trans                                                 &trans            &trans             &trans                &trans                                                              &trans
             >;
+
+            label = "Function";
         };
 
         layer_2 {
@@ -33,6 +37,8 @@
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none                       &none  &none  &none  &none                       &none
             >;
+
+            label = "Arrow";
         };
 
         layer_3 {
@@ -43,6 +49,8 @@
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none                       &none  &none  &none  &none                       &none
             >;
+
+            label = "Mouse";
         };
 
         layer_4 {
@@ -53,6 +61,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans                          &trans  &trans  &trans  &trans                          &trans
             >;
+
+            label = "Bluetooth";
         };
     };
 };
