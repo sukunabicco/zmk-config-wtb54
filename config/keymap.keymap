@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -23,7 +24,7 @@
 &trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR        &kp PERCENT        &kp AMPERSAND         &kp PIPE               &kp EQUAL      &kp UNDERSCORE  &kp TILDE     &trans
 &trans  &kp QUESTION     &kp SQT            &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON       &kp ASTERISK  &trans
 &trans  &none            &kp GRAVE          &kp MINUS  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH      &kp BACKSLASH   &kp AT_SIGN   &trans
-&trans                                                 &trans            &trans             &trans                &trans                                                              &trans
+&trans                                                 &trans            &trans             &mkp MB1              &mkp MB2                                                            &trans
             >;
 
             label = "Function";
@@ -31,11 +32,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                          &trans  &trans  &trans  &trans                          &trans
+&trans  &none  &none  &none           &none           &none            &none     &none           &none          &none  &none  &trans
+&trans  &none  &none  &none           &msc SCRL_UP    &none            &none     &kp UP_ARROW    &kp PAGE_UP    &none  &none  &trans
+&trans  &none  &none  &msc SCRL_LEFT  &kp LEFT_ALT    &msc SCRL_RIGHT  &kp LEFT  &kp RIGHT_ALT   &kp RIGHT      &none  &none  &trans
+&trans  &none  &none  &none           &msc SCRL_DOWN  &none            &none     &kp DOWN_ARROW  &kp PAGE_DOWN  &none  &none  &trans
+&trans                                &trans          &trans           &none     &kp RA(ENTER)                                &trans
             >;
 
             label = "Arrow";
