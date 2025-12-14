@@ -32,11 +32,11 @@
 
         layer_2 {
             bindings = <
-&trans  &none  &none  &none           &none           &none            &none     &none           &none          &none  &none  &trans
-&trans  &none  &none  &none           &msc SCRL_UP    &none            &none     &kp UP_ARROW    &kp PAGE_UP    &none  &none  &trans
-&trans  &none  &none  &msc SCRL_LEFT  &kp LEFT_ALT    &msc SCRL_RIGHT  &kp LEFT  &kp RIGHT_ALT   &kp RIGHT      &none  &none  &trans
-&trans  &none  &none  &none           &msc SCRL_DOWN  &none            &none     &kp DOWN_ARROW  &kp PAGE_DOWN  &none  &none  &trans
-&trans                                &trans          &trans           &none     &kp RA(ENTER)                                &trans
+&trans  &none  &none  &none           &none           &none            &none     &none           &none      &none  &none  &trans
+&trans  &none  &none  &none           &msc SCRL_UP    &none            &none     &kp UP_ARROW    &none      &none  &none  &trans
+&trans  &none  &none  &msc SCRL_LEFT  &kp LEFT_ALT    &msc SCRL_RIGHT  &kp LEFT  &kp RIGHT_ALT   &kp RIGHT  &none  &none  &trans
+&trans  &none  &none  &none           &msc SCRL_DOWN  &none            &none     &kp DOWN_ARROW  &none      &none  &none  &trans
+&trans                                &trans          &trans           &none     &kp RA(ENTER)                            &trans
             >;
 
             label = "Arrow";
