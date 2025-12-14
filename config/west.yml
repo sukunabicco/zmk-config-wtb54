@@ -7,10 +7,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: e34793e  # 2024年11月時点で動作確認済み
       import: app/west.yml
     - name: zmk-driver-paw3222
       remote: sekigon-gonnoc
-      revision: main
+      revision: 9daf613  # ドライバーも固定
   self:
     path: config
